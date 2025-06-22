@@ -1,0 +1,5 @@
+C:/Users/Vlad/Documents/GitHub/Parking/.utmp/RelWithDebInfo/493d5z48/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/Documents/GitHub/Parking/.utmp/RelWithDebInfo/493d5z48/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/Vlad/Documents/GitHub/Parking/.utmp/RelWithDebInfo/493d5z48/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/Vlad/Documents/GitHub/Parking/.utmp/RelWithDebInfo/493d5z48/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/Vlad/Documents/GitHub/Parking/.utmp/RelWithDebInfo/493d5z48/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

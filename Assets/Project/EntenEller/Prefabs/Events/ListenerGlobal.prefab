@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1963408025635520677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5493913122465888428}
+  - component: {fileID: -3821867096986097282}
+  - component: {fileID: 6575478903953468152}
+  m_Layer: 0
+  m_Name: ListenerGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5493913122465888428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963408025635520677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9374552, y: 0.73116094, z: 0.0077401213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3821867096986097282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963408025635520677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351d0feccc4a50042bc8c7fb16731116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: notifier-
+    eeGameObject: {fileID: 0}
+    foundGameObjects: []
+    isWarningOnNotFound: 0
+  VariablesInfo:
+  - VariableName: Notifier
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 0
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+    AmountOfCall: 0
+  notifiers: []
+  Amount: 0
+  Action: {fileID: 6575478903953468152}
+  TimePointCall:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+    AmountOfCall: 0
+--- !u!114 &6575478903953468152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963408025635520677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d060bc452b1214db82490bc10451a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  Delay:
+    isRandom: 0
+    isRandomEverytime: 0
+    Min: 0
+    Max: 0
+    _Value: 0
+  IsIgnoreSceneSwitching: 0
+  IsUnscaled: 0
+  IsActiveWhenDisabled: 0
+  UnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  EETimerData:
+    ComponentID: 0
+    IsUnscaled: 0
+    IsNotifyingUpdate: 0
+    IsIgnoreSceneSwitching: 0
+    CurrentTime: 0
+    FinalTime: 0
+    Token: 0
+    TimerState: 0
+    CancelNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+        AmountOfCall: 0
+    UpdateNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+        AmountOfCall: 0
+    PauseNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+        AmountOfCall: 0
+    ResumeNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+        AmountOfCall: 0
+    CompleteNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+        AmountOfCall: 0
+  IsActive: 0
+  TimePoint:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+    AmountOfCall: 0

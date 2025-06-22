@@ -1,0 +1,1356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &433054747686876533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8464454165550465093}
+  - component: {fileID: 1837829978679628152}
+  - component: {fileID: 1710818822743720509}
+  - component: {fileID: 4568509586124330310}
+  - component: {fileID: 6278097707544521928}
+  m_Layer: 5
+  m_Name: EETimer0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8464454165550465093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433054747686876533}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1837829978679628152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433054747686876533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 0
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: FinalTime
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!114 &1710818822743720509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433054747686876533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2486655dacd7714eb63cf12f66380fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  TimerBeginNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerPauseNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerResumeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerEndNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerBreakNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerAlwaysNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  FinalTime: 1
+  CurrentTime: 0
+  isCallingUpdate: 1
+  isUnscaled: 0
+  isIgnoreSceneSwitching: 1
+  timerData:
+    ComponentID: -2147483648
+    IsUnscaled: 0
+    IsNotifyingUpdate: 0
+    IsIgnoreSceneSwitching: 0
+    CurrentTime: 0
+    FinalTime: 0
+    Token: 0
+    TimerState: 0
+    CancelNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    UpdateNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    PauseNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    ResumeNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    CompleteNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+--- !u!114 &4568509586124330310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433054747686876533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2486655dacd7714eb63cf12f66380fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  TimerBeginNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerPauseNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerResumeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerEndNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerBreakNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerAlwaysNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  FinalTime: 2
+  CurrentTime: 0
+  isCallingUpdate: 1
+  isUnscaled: 0
+  isIgnoreSceneSwitching: 1
+  timerData:
+    ComponentID: -2147483648
+    IsUnscaled: 0
+    IsNotifyingUpdate: 0
+    IsIgnoreSceneSwitching: 0
+    CurrentTime: 0
+    FinalTime: 0
+    Token: 0
+    TimerState: 0
+    CancelNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    UpdateNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    PauseNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    ResumeNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    CompleteNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+--- !u!114 &6278097707544521928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433054747686876533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1003504f30b44c84b87b755bb5583efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  EETags:
+  - ee_timer0
+  ChangeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  sameTags: []
+--- !u!1 &470349191578732566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305222269210991244}
+  - component: {fileID: 273502501821897109}
+  m_Layer: 5
+  m_Name: PublicFieldBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &305222269210991244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470349191578732566}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273502501821897109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470349191578732566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: PublicFieldBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &537971491033536085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3939184614218117034}
+  - component: {fileID: 7602026874730820961}
+  m_Layer: 5
+  m_Name: ProtectedProperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3939184614218117034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537971491033536085}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7602026874730820961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537971491033536085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: ProtectedProperty
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &987721314568595274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585537144046602533}
+  - component: {fileID: 3111843558513827738}
+  m_Layer: 5
+  m_Name: ProtectedField
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585537144046602533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987721314568595274}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3111843558513827738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987721314568595274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: ProtectedField
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &1685291902433601443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5121491302980599639}
+  - component: {fileID: 569565958791853784}
+  m_Layer: 5
+  m_Name: PrivateFieldForChange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5121491302980599639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685291902433601443}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &569565958791853784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685291902433601443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: privateFieldForChange
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &2654577851231223166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7957955188957553662}
+  - component: {fileID: 4876501843321044944}
+  - component: {fileID: 1809347006482350602}
+  - component: {fileID: 4161688230115917618}
+  - component: {fileID: 3756601590568626658}
+  m_Layer: 5
+  m_Name: EETimer1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7957955188957553662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654577851231223166}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4876501843321044944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654577851231223166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 0
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: FinalTime
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!114 &1809347006482350602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654577851231223166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2486655dacd7714eb63cf12f66380fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  TimerBeginNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerPauseNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerResumeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerEndNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerBreakNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerAlwaysNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  FinalTime: 3
+  CurrentTime: 0
+  isCallingUpdate: 1
+  isUnscaled: 0
+  isIgnoreSceneSwitching: 1
+  timerData:
+    ComponentID: -2147483648
+    IsUnscaled: 0
+    IsNotifyingUpdate: 0
+    IsIgnoreSceneSwitching: 0
+    CurrentTime: 0
+    FinalTime: 0
+    Token: 0
+    TimerState: 0
+    CancelNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    UpdateNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    PauseNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    ResumeNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    CompleteNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+--- !u!114 &4161688230115917618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654577851231223166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2486655dacd7714eb63cf12f66380fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  TimerBeginNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerPauseNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerResumeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerEndNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerBreakNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  TimerAlwaysNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  FinalTime: 4
+  CurrentTime: 0
+  isCallingUpdate: 1
+  isUnscaled: 0
+  isIgnoreSceneSwitching: 1
+  timerData:
+    ComponentID: -2147483648
+    IsUnscaled: 0
+    IsNotifyingUpdate: 0
+    IsIgnoreSceneSwitching: 0
+    CurrentTime: 0
+    FinalTime: 0
+    Token: 0
+    TimerState: 0
+    CancelNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    UpdateNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    PauseNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    ResumeNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+    CompleteNotifier:
+      TimePointNotify:
+        FrameOfLastCall: -1
+        OrderOfLastCall: -1
+--- !u!114 &3756601590568626658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2654577851231223166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1003504f30b44c84b87b755bb5583efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  EETags:
+  - ee_timer1
+  ChangeNotifier:
+    TimePointNotify:
+      FrameOfLastCall: -1
+      OrderOfLastCall: -1
+  sameTags: []
+--- !u!1 &4026690778962729239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2216589687103315486}
+  - component: {fileID: 4561063528187198248}
+  m_Layer: 5
+  m_Name: PrivatePropertyBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2216589687103315486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4026690778962729239}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4561063528187198248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4026690778962729239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: privatePropertyBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &5862960210550840079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3041614234790212094}
+  - component: {fileID: 4439239613531564872}
+  m_Layer: 5
+  m_Name: PublicPropertyBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3041614234790212094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862960210550840079}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4439239613531564872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5862960210550840079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: PublicPropertyBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &6936627249518033118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9066478002122523256}
+  - component: {fileID: 6594055890362488607}
+  m_Layer: 5
+  m_Name: PublicField
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9066478002122523256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936627249518033118}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6594055890362488607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936627249518033118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: PublicField
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &6982515942708848387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8765937204862787212}
+  - component: {fileID: 2446339216568872780}
+  m_Layer: 5
+  m_Name: ProtectedPropertyBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8765937204862787212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6982515942708848387}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2446339216568872780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6982515942708848387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: ProtectedPropertyBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &7364306910096764793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076716129081404487}
+  - component: {fileID: 7619397368343341420}
+  - component: {fileID: 7035528938399913629}
+  m_Layer: 0
+  m_Name: TestTextValueByVariable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1076716129081404487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364306910096764793}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 155.25, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3126608689943135069}
+  - {fileID: 1585537144046602533}
+  - {fileID: 9066478002122523256}
+  - {fileID: 8742699814655884743}
+  - {fileID: 8582128643017961438}
+  - {fileID: 305222269210991244}
+  - {fileID: 6681137671152081798}
+  - {fileID: 3939184614218117034}
+  - {fileID: 3375694441079935555}
+  - {fileID: 2216589687103315486}
+  - {fileID: 8765937204862787212}
+  - {fileID: 3041614234790212094}
+  - {fileID: 5121491302980599639}
+  - {fileID: 8464454165550465093}
+  - {fileID: 7957955188957553662}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7619397368343341420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364306910096764793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5948f47b5143c25469a14adb949c7796, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+--- !u!114 &7035528938399913629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7364306910096764793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90b064ebc9fd84b9c9845ac5603d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  Prefab: {fileID: 0}
+  IsActive: 0
+  Spawner: {fileID: 0}
+  SpawnIndex: 0
+--- !u!1 &7606269490246284157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8582128643017961438}
+  - component: {fileID: 6979641130320920971}
+  m_Layer: 5
+  m_Name: ProtectedFieldBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8582128643017961438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606269490246284157}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6979641130320920971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606269490246284157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: ProtectedFieldBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &8522445254633520739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6681137671152081798}
+  - component: {fileID: 1137840430105383932}
+  m_Layer: 5
+  m_Name: PrivateProperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6681137671152081798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522445254633520739}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1137840430105383932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522445254633520739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: privateProperty
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &8537774372998009449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3375694441079935555}
+  - component: {fileID: 938429103361312675}
+  m_Layer: 5
+  m_Name: PublicProperty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3375694441079935555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537774372998009449}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938429103361312675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537774372998009449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: PublicProperty
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &8938901091753571446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8742699814655884743}
+  - component: {fileID: 7977769727932270607}
+  m_Layer: 5
+  m_Name: PrivateFieldBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8742699814655884743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938901091753571446}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7977769727932270607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8938901091753571446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: privateFieldBase
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
+--- !u!1 &9067066362737220417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3126608689943135069}
+  - component: {fileID: 7255933963591289179}
+  m_Layer: 5
+  m_Name: PrivateField
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3126608689943135069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067066362737220417}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1076716129081404487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7255933963591289179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067066362737220417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a455c79e7e287eb43a17065ac382a03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isHavingConstantID: 0
+  ConstantID: 
+  IsAwaken: 0
+  IndexBehaviour: 0
+  target:
+    Type: 1
+    eeTag: 
+    eeGameObject: {fileID: 0}
+    eeGameObjects: []
+    isWarningOnNotFound: 1
+  VariablesInfo:
+  - VariableName: privateField
+    Variables: []
+  IsActiveUpdating: 0
+  isWarningOnNotFound: 1
+  TimePointVariableFind:
+    FrameOfLastCall: -1
+    OrderOfLastCall: -1
